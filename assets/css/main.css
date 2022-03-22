@@ -1428,6 +1428,10 @@ h3 {
     margin-left: calc(50% - 28px);
     padding-left: 216px;
   }
+  .road-map .road-map-list.phase-2 .roadmap-item:nth-child(5) {
+    margin-top: 630px;
+    margin-left: calc(50% - 32px);
+  }
   .road-map .road-map-list.phase-3 .roadmap-item:nth-child(5) {
     margin-top: 535px;
     margin-left: calc(50% - 25px);
@@ -1447,6 +1451,22 @@ h3 {
   .road-map .road-map-list.phase-3 .roadmap-item:nth-child(6) {
     padding-right: 196px;
     margin-top: 630px;
+  }
+}
+@media (min-width: 991.98px) {
+  .road-map .road-map-list.phase-3 .roadmap-item:nth-child(7) {
+    background-image: url(./../../images/q1-22.png);
+    margin-top: 720px;
+    margin-left: calc(50% - 30px);
+    padding-left: 216px;
+  }
+}
+@media (min-width: 991.98px) {
+  .road-map .road-map-list.phase-3 .roadmap-item:nth-child(8) {
+    background-image: url(./../../images/q4.png);
+    margin-left: calc(50% - 426px);
+    margin-top: 830px;
+    padding-right: 35px;
   }
 }
 /* ----------- End Styling for Roadmap -------------- */
